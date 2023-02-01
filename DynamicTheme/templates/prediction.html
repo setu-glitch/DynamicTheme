@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Prediction</title>
+        <script src="jscript/validation.js" type="text/javascript"></script>
+        <link href="https://fonts.maateen.me/bensen/font.css" rel="stylesheet">
+    <!--Inline CSS-->
+        <style>
+        @import url('https://fonts.maateen.me/bensen/font.css');
+        body {
+            margin: 0;
+            font-family: 'BenSen', sans-serif;
+            font-weight: light;
+        }
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+    
+        .button1:hover{
+            background-color: #e43a76; 
+            color: white; 
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+    
+        .button1{
+            background-color: #393939;
+            color: white;
+        }
+        
+        .parent-div 
+        {
+            display: inline-block;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .parent-div input[type=file] 
+        {
+            left: 0;
+            top: 0;
+            opacity: 0;
+            position: absolute;
+            font-size: 90px;
+        }
+
+        .btn-grad2 {background-image: linear-gradient(to right, #ff7e5f 0%, #feb47b  51%, #ff7e5f  100%)}
+         .btn-grad2 {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad2:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
+        .btn-grad {background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+            box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.563), 0 17px 50px 0 rgba(255, 255, 255, 0.467);
+          }
+
+          @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        html,body{
+            display: grid;
+            height: 100%;
+            place-items: center;
+            /* background: #000; */
+        }
+        .text{
+            font-size: 70px;
+            font-weight: 800;
+            outline: none;
+            text-transform: uppercase;
+            background: linear-gradient(135deg, #5335cf 0%, #de005e 25%, #f66e48 50%, #de005e 75%, #5335cf 100%);
+            background-size: 400%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; 
+            animation: animate 10s linear infinite;
+        }
+        .text2{
+            font-size: 40px;
+            font-weight: 800;
+            outline: none;
+            text-transform: uppercase;
+            background: linear-gradient(135deg, #ffffff 0%, #de005e 25%, #727272 50%, #745562 75%, #514d61 100%);
+            background-size: 400%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; 
+            animation: animate 10s linear infinite;
+        }
+        #pic 
+        {
+            background: url('banner.png') no-repeat;
+            display: inline-block; /* so that it behaves like the img element */
+        }
+        @keyframes animate 
+        {
+            to
+            {
+                background-position: 400%;
+            }
+        }
+         
+        </style>
+    </head>
+
+<body background="https://www.wallpapertip.com/wmimgs/3-33621_minimalist-wallpaper-hd-desktop.jpg">
+
+    <center>
+        <br>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <h1 class="text">HERE IS YOUR PALETTE</h1>
+
+        <br>
+        <div id="pic"></div>
+        <br>
+
+        <img src="/static/images/foo.jpg" alt="broke">
+        <br>
+        <br>
+        <br>
+        <br>
+        <div>
+            <button class='button btn-grad' type='button' onclick="window.location='http://127.0.0.1:5000/'">Back</button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </center>
+</body>
+</html>
+
+
